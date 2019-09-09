@@ -1,60 +1,80 @@
-
-
 body{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 2;
+  margin:0px;
+  padding: 1px;
 }
 
 div{
+  margin:0px;
+  padding: 1px;
   font-family: cursive;
   font-style: oblique;
   text-align: center
 }
 
-
-form{
-  text-align: center;
+section{
+  margin:0px;
+  padding: 1px;
 }
 
-
-h1 {
-  font-family: cursive;
-  font-style: oblique;
-  font-size: 28px;
-  font-weight: 300;
-}
-
-
-h2 {
-  font-family: cursive;
-  font-style: oblique;
-  font-size: 28px;
-  font-weight: 300;
-}
-
-h3
-{
-  font-family: cursive;
-  font-style: oblique;
-  font-size: 28px;
-  font-weight: 300;
-}
-
-h4{
+h1{
   font-size: 20px;
+  float: left;
+  padding-right: 500px;
+  padding-bottom: 150px;
+}
+
+
+
+li{
+  text-align: left;
+}
+
+#welcome{
+background-size: cover;
+background-repeat: no-repeat;
+margin:0px;
+padding: 1px;
+font-family: monospace;
+}
+
+#resume{
+  background-size: cover;
+  margin:0px;
+  padding: 1px;
+  font-family: monospace;
+}
+
+#project{
+  background-size: cover;
+  margin:0px;
+  padding: 1px;
+  font-family: monospace;
+}
+
+#contact
+{
+  background-size: cover;
+  margin:0px;
+  padding: 1px;
+  font-family: monospace;
+}
+
+
+#SVG_image{
+  text-align: center;
 }
 
 p{
   font-family: cursive;
   font-style: oblique;
-  font-weight: bold;
-
 }
 
 
 a {
-  background-color: #ffffff;
+  background-color: inherit;
   color: #357b70;
 }
 
@@ -72,34 +92,20 @@ a:active {
   color: #F0F8FF;
 }
 
-button:hover, button:focus {
-  cursor: pointer;
-  opacity: 0.5;
-}
-
-.button__secondary {
-  background-color: #e0b354;
-  color: #2b2b2b;
-}
-
-
-.profile_portrait {
-  float: left;
-  width: 250px;
-  margin-right: 80px;
-  border-radius: 50%;
-}
 
 .page-footer {
   clear: both;
   display: flex;
           flex-direction: column;
   text-align: center;
+
 }
 
 .profile {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 150px;
+  background-size: cover;
+  display: flex;
 }
 
 * {
@@ -144,6 +150,7 @@ button:hover, button:focus {
 .grid__item {
   background-color: lightgray;
   color: inherit;
+  padding-top: 20px;
 }
 
 
