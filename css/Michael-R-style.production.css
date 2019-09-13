@@ -63,10 +63,6 @@ font-family: monospace;
 }
 
 
-#SVG_image{
-  text-align: center;
-}
-
 p{
   font-family: cursive;
   font-style: oblique;
@@ -92,6 +88,17 @@ a:active {
   color: #F0F8FF;
 }
 
+#credentials
+{
+  float:left;
+  font-size: 10px;
+}
+
+#welcome_text
+{
+  color: #000000;
+  background-color: inherit;
+}
 
 .page-footer {
   clear: both;
@@ -148,21 +155,13 @@ a:active {
 }
 
 .grid__item {
-  background-color: lightgray;
-  color: inherit;
+
   padding-top: 20px;
 }
 
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(0, 50px);
-  }
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
+#social-media
+{
+  position: absolute;
+  bottom: 0;
+  vertical-align: middle;
 }
